@@ -4,6 +4,15 @@
     padding: 20px;
 }
 
+.copy-message {
+    background: #ddd;
+    padding: 3px 20px;
+    border-radius: 20px;
+    position: absolute !important;
+    top: -9px;
+    right: -124px;
+}
+
 .flag-box-desc {
     display: flex;
     align-items: center;
@@ -64,6 +73,7 @@ span.small-text-block {
     font-size: 15px;
     font-weight: 700;
     color: #666;
+    position: relative;
 }
 
 p.small-text-block span {
@@ -71,6 +81,7 @@ p.small-text-block span {
     margin-top: 5px;
     font-weight: 400;
     color: black;
+    position: relative;
 }
 
 .nav-tabs {
@@ -127,8 +138,12 @@ a.nav-link {
 }
 
 .first-tab {
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+}
+
+p.small-text-block span i {
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
