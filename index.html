@@ -7,6 +7,172 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <style>
+            .flag-box {
+                display: flex;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .copy-message {
+                background: #ddd;
+                padding: 3px 20px;
+                border-radius: 20px;
+                position: absolute !important;
+                top: -9px;
+                right: -124px;
+            }
+
+            .flag-box-desc {
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                padding-left: 0;
+            }
+
+            .flag-image {
+                margin-right: 8px;
+                width: 100px;
+            }
+
+            .country-name {
+                font-weight: bold;
+                font-size: 13px;
+            }
+
+            .box img {
+                width: auto;
+            }
+            .active .box {
+                background: linear-gradient(177deg, #867acb, #5e48ca);
+                margin-top: 10px;
+                border-radius: 12px;
+                color: #ffff;
+            }
+
+            .box {
+                border: 1px solid #ddd;
+                margin-top: 10px;
+                border-radius: 12px;
+                color: #000;
+            }
+
+            .border-1 {
+                border: 2px solid #7564cb;
+                width: 99%;
+                padding-bottom: 100px;
+                border-radius: 20px;
+            }
+
+            .flag-box-desc img {
+                margin-right: 12px;
+                background: #efefef;
+                padding: 6px 20px;
+                border-radius: 13px;
+            }
+
+            .border-box {
+                border-bottom: 1px solid #ddd;
+            }
+
+            span.small-text-block {
+                display: table;
+            }
+
+            .account-details p {
+                font-size: 15px;
+                font-weight: 700;
+                color: #666;
+                position: relative;
+            }
+
+            p.small-text-block span {
+                display: table;
+                margin-top: 5px;
+                font-weight: 400;
+                color: black;
+                position: relative;
+            }
+
+            .nav-tabs {
+                border-bottom: 0px solid #dee2e6 !important;
+            }
+
+            .custom-tab a.nav-link.active {
+                border-bottom: 3px solid #6e5cca !important;
+                border: 0;
+            }
+
+            a.copy-btn {
+                background: linear-gradient(177deg, #867acb, #5e48ca);
+                padding: 9px 20px;
+                display: table;
+                color: #fff;
+                border-radius: 10px;
+                margin-top: 3%;
+                text-transform: capitalize;
+                font-weight: 700;
+            }
+
+            .custom-tab a.nav-link.active {
+                color: #000;
+                font-weight: 600;
+            }
+
+            ul.nav.nav-tabs.custom-tab a {
+                color: #000;
+                padding: 10px 0px;
+                margin-right: 58px;
+            }
+
+            ul.nav.nav-tabs.custom-tab a i {
+                margin-right: 10px;
+            }
+
+            .border-box i {
+                margin-right: 15px;
+            }
+
+            a.nav-link {
+                border: 0 !important;
+            }
+
+            .first-tab .nav-item a {
+                margin-right: 15px;
+                padding-right: 0;
+                padding-left: 0;
+            }
+
+            .first-tab .nav-item {
+                width: 16%;
+            }
+
+            .first-tab {
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            p.small-text-block span i {
+                cursor: pointer;
+            }
+
+            @media (max-width: 600px) {
+                .first-tab .nav-item {
+                    width: 90%;
+                    margin: auto;
+                }
+                .first-tab a {
+                    margin-right: 0 !important;
+                }
+                .border-1 {
+                    border: 2px solid #7564cb;
+                    width: 87%;
+                    padding-bottom: 100px;
+                    border-radius: 20px;
+                    margin: auto;
+                }
+            }
+        </style>
     </head>
     <body>
         <div class="container">
